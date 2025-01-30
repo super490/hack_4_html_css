@@ -3,18 +3,31 @@ body {
     margin-left: 200px;
 }
 
+.line {
+    width: 60px;
+    height: 5px;
+    background-color: black;
+    margin-left: 650px;
+    margin-top: 100px;
+    border-radius: 15%;
+    
+}
+
 /* TEXTO AL PRINCIPIO */
 .text {
     margin-left: -200px;
 }
 
 .text_1 {
-    margin-top: 80px;
+    margin-top: 60px;
     font-family: ruda;
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 0;
-    font-weight: bold; 
+    font-weight: 900; 
+    letter-spacing: 3px;
+    font-size: 25px;
+
 }
 
 .text_2 {
@@ -23,8 +36,9 @@ body {
     color: #B88940;
     text-transform: uppercase;
     text-align: center;
-    font-size: 80px;
+    font-size: 130px;
     font-weight: bold;
+    letter-spacing: 5px;
 }
 
 .text_3 {
@@ -32,8 +46,8 @@ body {
     font-family: ruda;
     text-transform: uppercase;
     text-align: center;
-    font-size: 40px;
-    font-weight: bold;
+    font-size: 50px;
+    font-weight: 900;
 }
 
 .text_4 {
@@ -41,6 +55,8 @@ body {
     text-align: center;
     font-weight: bold;
     margin-bottom: 200px;
+    letter-spacing: 5px;
+    font-size: 20px;
 }
 
 /* CONTENEDOR DONDE DEL MEDIO DONDE VAN LAS IMAGENES Y LAS LINEAS */
@@ -136,11 +152,16 @@ img {
     color: #B88940;
     font-size: 60px;
     font-weight: bold;
+    margin-bottom: -10px;
 }
 
 .text_6 {
+    margin-top: -10px;
+    margin-bottom: 50px;
     font-family: catamaran;
     font-weight: bold;
+    font-size: 25px;
+    letter-spacing: 2px;
 }
  
 
